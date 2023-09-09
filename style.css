@@ -204,7 +204,7 @@
 
 @media (max-width: 920px) {
   .box{
-    width: 80%;
+    width: 90%;
   }
  .martva{
   margin-left: 30%;
@@ -213,9 +213,10 @@
   margin-left: 20%;
  }
 }
+
 @media (max-width: 420px) {
   .box{
-    width: 80%;
+    width: 90%;
   }
   .martva{
     margin-left: 30%;
