@@ -222,16 +222,15 @@
     margin-left: 30%;
    }
    .audiobt{
-    margin-left: 5%;
+    margin-left: 14%;
    }
    #element {
     width: 70px;
-    height: 45px;
+    height: 40px;
     position: relative;
     margin-left: 10px;
     border-radius: 50%;
     background-color: black;
-   
-    
   }
+  
   }
