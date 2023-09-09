@@ -1,0 +1,226 @@
+.section1{
+  
+ 
+  background-color: rgb(227, 234, 234);
+ 
+  transition: background-color 1s;
+ 
+ 
+  
+}
+.box{
+  background-image: url('fotos/road.jpg');
+  background-size: contain; /* Optional: Scales the background image to cover the entire container */
+  position: relative;
+
+    width: 770px;
+    height: 410px;
+   
+    margin: 0 auto;
+    color: beige;
+
+}
+
+
+
+#element {
+    width: 100px;
+    height: 70px;
+    position: relative;
+    margin-left: 10px;
+    border-radius: 50%;
+    background-color: black;
+   
+    
+  }
+
+
+
+  .martva{
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-left: 45%;
+   
+  }
+.audiobt{
+  
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 40%;
+  
+}
+.up{
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+.down{
+  margin-left: 28px;
+  margin-top: 10px;
+}
+.right{
+  margin-left: 45px;
+}
+.left{
+ margin-left: -24px;
+
+}
+.img{
+  width: 20px;
+  height: 20px;
+  margin-left: 40px;
+}
+.img2{
+  width: 20px;
+  height: 20px;
+  margin-left: 80px;
+}
+#btallmartva{
+  border-radius: 7px;
+  width: 60px;
+}
+
+
+/* marque s style  hier */
+#head{
+ 
+  margin-top:2px ;
+  position: absolute;
+
+
+}
+#footer2{
+ margin-left: -98px;
+  position: absolute;
+  bottom: 10px;
+ 
+}
+/* //              -----------------  bt style  */
+
+
+.button-31 {
+  background-color: #41ed16;
+  border-radius: 12px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px 15px;
+  text-align: center;
+  transition: 200ms;
+  width: 80px;
+  box-sizing: border-box;
+  border: 0;
+  font-size: 14px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-31:not(:disabled):hover,
+.button-31:not(:disabled):focus {
+  outline: 0;
+  background: #25f62c;
+  box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
+}
+
+.button-31:disabled {
+  filter: saturate(0.2) opacity(0.5);
+  -webkit-filter: saturate(0.2) opacity(0.5);
+  cursor: not-allowed;
+}
+
+
+
+
+
+.button-32 {
+  background-color: #fff000;
+  border-radius: 12px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px 15px;
+  text-align: center;
+  transition: 200ms;
+  width: 80px;
+  box-sizing: border-box;
+  border: 0;
+  font-size: 14px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-32:not(:disabled):hover,
+.button-32:not(:disabled):focus {
+  outline: 0;
+  background: #f4e603;
+  box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
+}
+
+.button-32:disabled {
+  filter: saturate(0.2) opacity(0.5);
+  -webkit-filter: saturate(0.2) opacity(0.5);
+  cursor: not-allowed;
+}
+
+
+
+.button-33 {
+  background-color: #f44813;
+  border-radius: 12px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px 15px;
+  text-align: center;
+  transition: 200ms;
+  width: 80px;
+  box-sizing: border-box;
+  border: 0;
+  font-size: 14px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-33:not(:disabled):hover,
+.button-33:not(:disabled):focus {
+  outline: 0;
+  background: #f44813;
+  box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
+}
+
+.button-33:disabled {
+  filter: saturate(0.2) opacity(0.5);
+  -webkit-filter: saturate(0.2) opacity(0.5);
+  cursor: not-allowed;
+}
+
+
+/*                         -------responsee */
+
+@media (max-width: 920px) {
+  .box{
+    width: 80%;
+  }
+ .martva{
+  margin-left: 30%;
+ }
+ .audiobt{
+  margin-left: 20%;
+ }
+}
+@media (max-width: 420px) {
+  .box{
+    width: 80%;
+  }
+  .martva{
+    margin-left: 10%;
+   }
+   .audiobt{
+    margin-left: 5%;
+   }
+  }
